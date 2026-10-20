@@ -1,11 +1,3 @@
-/*
- * game.c
- *
- * Functionality related to the game state and features.
- *
- * Author: Jarrod Bennett, Cody Burnett
- */ 
-
 #include "game.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -156,7 +148,6 @@ void update_ball_position(void) {
 
 // Returns 1 if the game is over, 0 otherwise.
 uint8_t is_game_over(void) {
-	// YOUR CODE HERE
 	// Detect if the game is over i.e. if a player has won.
 	return 0;
 }
